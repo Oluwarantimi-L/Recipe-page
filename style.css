@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(30, 54%, 90%);
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+ol li::marker,
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.title {
+  color: hsl(40, 3%, 19%);
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 1.9rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.info,
+.prep-info {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: hsl(30, 10%, 34%);
+  border-radius: 1.2rem;
+}
+.prep-info {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+.prep-info li {
+  margin-bottom: 0.5rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.prep-info li span {
+  font-weight: 600;
+}
+.prep-time {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.ingredients-title,
+.instruction-title,
+.nutrition {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients-items,
+.instructions,
+.nutrition-details {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.nutrition-row {
+  border-bottom: 1px solid hsl(29, 53%, 90%);
+}
+
+.nutrition-row td {
+  padding: 0.75rem 2.5rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition-row .label {
+  color: hsl(30, 10%, 34%);
+}
+
+.wrapper {
+  width: 45em;
+  padding: 1.7rem;
+  background: hsl(0, 0%, 100%);
+  border-radius: 1.2rem;
+}
+
+.box {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  border-radius: 0.6rem;
+  margin-top: 5rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-inline: auto;
+  border-radius: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.attribution {
+  margin: 1rem;
+  font-size: 11px;
+  text-align: center;
+ 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
