@@ -124,7 +124,7 @@ h1 {
   margin-bottom: 1rem;
 }
 .wrapper {
-  width: 45em;
+  min-width: min(90%, 45em);
   padding: 1.7rem;
   background: hsl(0, 0%, 100%);
   border-radius: 1.2rem;
