@@ -109,6 +109,10 @@ h1 {
   color: hsl(30, 10%, 34%);
 }
 
+.nutrition-row:last-child {
+  border-bottom: none;
+}
+
 .wrapper {
   width: 45em;
   padding: 1.7rem;
